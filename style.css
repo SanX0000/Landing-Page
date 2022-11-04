@@ -1,0 +1,74 @@
+body {
+	background-color: darkslategrey;
+}
+
+
+.topo {
+	height: 100%;
+	background-image: url("imagens/code1.jpg");
+}
+
+
+h1 {
+	color: black;
+	font-size: 600%;
+	font-family: 'Trebuchet MS';
+}
+
+
+h2 {
+	font-family: cursive;
+	font-size: 300%;
+}
+
+.principal {
+	font-family: cursive;
+	color:cornsilk;
+	font-size: 25px;
+	text-align: center;
+}
+
+
+.meio {
+	display:inline-flexbox;
+	text-align: center;
+	font-size: 50px;
+	background:darkolivegreen;
+	padding: 20px;
+	font-family: cursive;
+}
+
+
+.imagem2 {
+    float: right;
+	width: 30%;
+}
+
+.baixo {
+    display: inline-flexbox;
+	text-align: center;
+	font-size: 50px;
+	background: cornflowerblue;
+	padding: 20px;
+	font-family: cursive;
+}
+
+
+.imagem3 {
+	float:left;
+	width: 30%;
+}
+
+
+footer{
+	font-family: cursive;
+	text-align:center;
+	font-size: 20px;
+}
+
+
+.rodape{
+	float:center;
+	font-family: cursive;
+	text-align:center;
+}
