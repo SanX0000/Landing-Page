@@ -15,3 +15,4 @@ a mim e aos meus projetos.
 Como a ideia era um site de apresentação, algo leve e com poucas informações, a maior parte do tempo
 gasto no projeto foi no alinhamento das imagens com as informações. Para isso os comandos básicos de HTML e CSS foram usados resultando 
 em um visual suave  e dinâmico.
+![landing](https://user-images.githubusercontent.com/115950745/200638464-a0219092-614d-44cf-83e9-a81fca3b214d.jpg)
