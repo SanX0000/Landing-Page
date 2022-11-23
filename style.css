@@ -3,14 +3,116 @@ body {
 }
 
 
-.topo {
-	height: 100%;
-	background-image: url("imagens/code1.jpg");
+
+
+
+#event-description {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url("imagens/code1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--text-color);
+}
+
+.contatos a img:hover {
+	width: 10%; 
+	height: 10%
+}
+
+.contatos {
+	display: inline;
+	margin: 0 0 0 50px;
+}
+
+#disclaimer h2,
+#disclaimer .event-date {
+    color: white;
+}
+
+#disclaimer h2 {
+    font-size: 7em;
+    margin-bottom: 1em;
+	font-family:'Trebuchet MS';
+}
+
+#disclaimer .about-event {
+    font-size: 3em;
+    text-transform: uppercase;
+    max-width: 350px;
+    font-weight: bold;
+    margin-bottom: 1em;
+	font-family:  sans-serif;
+	color: aqua;
+}
+
+#disclaimer p {
+    font-size: 1.2em;
+    margin-bottom: 0.3em;
+	color: aliceblue;
+}
+
+#disclaimer .event-date {
+    font-weight: bold;
+}
+
+#subscription-form {
+    background-color: var(--secondary);
+    padding: 2em;
+    max-width: 22%;
+}
+
+#subscription-form p {
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 1em;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8em;
+}
+
+.form-group label {
+    color: var(--text-tertiary);
+    margin-bottom: 0.3em;
+    font-weight: bold;
+	color: aliceblue;
+}
+
+.form-group input,
+.form-group select {
+    padding: 6px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.btn {
+    background-color: var(--primary);
+    color: var(--text-color);
+    text-transform: uppercase;
+    width: 100%;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.btn:hover {
+    opacity: 1;
 }
 
 
+
+
+
 h1 {
-	color: black;
+	color:white;
 	font-size: 600%;
 	font-family: 'Trebuchet MS';
 }
@@ -26,6 +128,7 @@ h2 {
 	color:cornsilk;
 	font-size: 25px;
 	text-align: center;
+	padding: 2%;
 }
 
 
