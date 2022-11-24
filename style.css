@@ -19,13 +19,13 @@ body {
 }
 
 .contatos a img:hover {
-	width: 10%; 
-	height: 10%
+	width: 80px; 
+	height: 80px;
 }
 
 .contatos {
-	display: inline;
-	margin: 0 0 0 50px;
+	display: flex;
+	justify-content:space-between;
 }
 
 #disclaimer h2,

@@ -1,117 +1,107 @@
-		<!DOCTYPE html>
-		<html lang="pt-br">
-			<head>
-				<meta charset="UTF-8">
-				<title>SantiagoBarreto</title>
-				<link rel="stylesheet" href="style.css">
-			</head>
+<!DOCTYPE html>
+<html lang="pt-br">
 
-			<body>
-				<header id="event-description">
-					<div id="disclaimer">
-						<li class="contatos">
-							<a href="https://api.whatsapp.com/send?phone=5544991716767"><img src="imagens/whats.webp"width="70" height="70"></a> 
-							<a href="https://www.linkedin.com/in/santiago-barreto-dev/"><img src="imagens/Linkedin.png" width="65" height="65"></a>
-							<a href="https://www.instagram.com/san.x0000/"><img src="imagens/insta.webp" width="65" height="65"></a>
-							<a href="https://github.com/SanX0000"><img src="imagens/git.png" width="65" height="65"></a>
-						</li>
+<head>
+	<meta charset="UTF-8">
+	<title>SantiagoBarreto</title>
+	<link rel="stylesheet" href="style.css">
+</head>
 
-						<h2>Santiago Barreto</h2>
-						<p class="about-event">
-							Desenvolvedor Front-End
-						</p>
-					
-						
-					</div>
-					<div id="subscription-form">
-						<p>Preencha o formulário solicitar um orçamento</p>
-						<form id="formulario" method="post" action="">
-							<div class="form-group">
-								<label for="name">Nome</label>
-									<input 
-									type="text" 
-									name="name" 
-									placeholder="Digite seu nome"
-									required
-									/>
-							</div>
-							<div class="form-group">
-								<label for="email">E-mail</label>
-									<input 
-									type="email"
-									id="email" 
-									name="email" 
-									placeholder="Digite seu melhor e-mail"
-									data-tipo="email"
-									pattern="[a-z0-9.]+@[a-z0-9]+\.[a-z]+(\.[a-z]+)?"
-									required
-									/>
-							</div>
-							<div class="form-group">
-								<label for="phone">Telefone</label>
-									<input 
-									type="text"
-									id="phone" 
-									name="phone" 
-									placeholder="Número de Whatsapp"
-									pattern="\(?[0-9]{2}\)?\s?9[0-9]{4}-[0-9]{4}"
-									maxlength="15"
-									required
-									/>
-							</div>
-							<div class="form-group">
-								<label for="interest">Principal interesse</label>
-								<select name="interest">
-									<option value="" disabled selected>Selecione</option>
-									<option value="apartment">Desenvolvimento Front-End</option>
-									<option value="house">Manutenção de computadores</option>
-									<option value="garden">Cursos e palestras</option>
-									<option value="other">Outros</option>
-								</select>
-							</div>
-							<input type="submit" class="btn" value="Quero me inscrever">
-						</form>
-					</div>
-				</header>
+<body>
+	<header id="event-description">
+		<div id="disclaimer">
 
-				
-			
-		<div class="principal">
+			<li class="contatos">
+				<a href="https://api.whatsapp.com/send?phone=5544991716767"><img src="imagens/whats.webp" width="65"
+						height="65"></a>
+				<a href="https://www.linkedin.com/in/santiago-barreto-dev/"><img src="imagens/Linkedin.png" width="65"
+						height="65"></a>
+				<a href="https://www.instagram.com/san.x0000/"><img src="imagens/insta.webp" width="65" height="65"></a>
+				<a href="https://github.com/SanX0000"><img src="imagens/git.png" width="65" height="65"></a>
+			</li>
 
-			<p>Sou Desenvolvedor Front-End e especialista em segurança digital. Utilizando as linguagens HTML, CSS e JavaScript, uso minha criatividade
-				para dar vida ao seu projeto. Minhas Hard Skills estão em pleno desenvolvimento, e minhas Soft Skills já estão prontas para ajudar o seu time a alcançar o sucesso!
-				Acesse as minhas redes para conhecer mais sobre mim e os meus projetos. 
+
+
+			<h2>Santiago Barreto</h2>
+			<p class="about-event">
+				Desenvolvedor Front-End
 			</p>
-		</div>
 
-				
-			<div class="meio">
-					
-			<img src="imagens/code00.png" class="imagem2">
-				<p>Criação de sites informativos e Landing Pages</p><br/>	
-				<p>Jogos temáticos e criativos</p><br/>
-				<p>Linguagens HTML, CSS e JavaScript</p><br/>
-							
+
+		</div>
+		<div id="subscription-form">
+			<p>Preencha o formulário solicitar um orçamento</p>
+			<form id="formulario" method="post" action="">
+				<div class="form-group">
+					<label for="name">Nome</label>
+					<input type="text" name="name" placeholder="Digite seu nome" required />
 				</div>
-			
-
-
-		<div class="baixo">
-			<img src="imagens/tec2.jpg" class="imagem3">
-				<p>Especialista em Segurança digital</p><br/>	
-				<p>Experiência com Manutenção de Hardware</p><br/>
-				<p>Suporte técnico especializado</p><br/>
+				<div class="form-group">
+					<label for="email">E-mail</label>
+					<input type="email" id="email" name="email" placeholder="Digite seu melhor e-mail" data-tipo="email"
+						pattern="[a-z0-9.]+@[a-z0-9]+\.[a-z]+(\.[a-z]+)?" required />
+				</div>
+				<div class="form-group">
+					<label for="phone">Telefone</label>
+					<input type="text" id="phone" name="phone" placeholder="Número de Whatsapp"
+						pattern="\(?[0-9]{2}\)?\s?9[0-9]{4}-[0-9]{4}" maxlength="15" required />
+				</div>
+				<div class="form-group">
+					<label for="interest">Principal interesse</label>
+					<select name="interest">
+						<option value="" disabled selected>Selecione</option>
+						<option value="apartment">Desenvolvimento Front-End</option>
+						<option value="house">Manutenção de computadores</option>
+						<option value="garden">Cursos e palestras</option>
+						<option value="other">Outros</option>
+					</select>
+				</div>
+				<input type="submit" class="btn" value="Quero me inscrever">
+			</form>
 		</div>
-
-		
-		
-		
-		
-		<footer>
-			<p>Santiago Barreto - 2022</p>
-			<img src="imagens/copy.png" width="65" height="65" class="rodape">
-		</footer>
+	</header>
 
 
-			</body>
-		</html>
+
+	<div class="principal">
+
+		<p>Sou Desenvolvedor Front-End e especialista em segurança digital. Utilizando as linguagens HTML, CSS e
+			JavaScript, uso minha criatividade
+			para dar vida ao seu projeto. Minhas Hard Skills estão em pleno desenvolvimento, e minhas Soft Skills já
+			estão prontas para ajudar o seu time a alcançar o sucesso!
+			Acesse as minhas redes para conhecer mais sobre mim e os meus projetos.
+		</p>
+	</div>
+
+
+	<div class="meio">
+
+		<img src="imagens/code00.png" class="imagem2">
+		<p>Criação de sites informativos e Landing Pages</p><br />
+		<p>Jogos temáticos e criativos</p><br />
+		<p>Linguagens HTML, CSS e JavaScript</p><br />
+
+	</div>
+
+
+
+	<div class="baixo">
+		<img src="imagens/tec2.jpg" class="imagem3">
+		<p>Especialista em Segurança digital</p><br />
+		<p>Experiência com Manutenção de Hardware</p><br />
+		<p>Suporte técnico especializado</p><br />
+	</div>
+
+
+
+
+
+	<footer>
+		<p>Santiago Barreto - 2022</p>
+		<img src="imagens/copy.png" width="65" height="65" class="rodape">
+	</footer>
+
+
+</body>
+
+</html>
